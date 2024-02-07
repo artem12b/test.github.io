@@ -1,0 +1,7 @@
+@use './../variables/breakpoints.scss' as b;
+
+@mixin mobile {
+  @media screen and (max-width: b.$mobile) {
+    @content;
+  }
+}
